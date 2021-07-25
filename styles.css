@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(218, 218, 218, 0.534);
+    font-family: 'Courier New', monospace;
+    color: rgb(0, 0, 0);
+}
+
+* {
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    touch-action: manipulation;
+}
+
+main {
+    max-width: 700px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 64px 16px;
+}
+
+/*Navigation Bar Styles*/
+nav {
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+nav ul{
+    text-align: right;
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    display: flex;
+}
+
+
+.profile_bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.social_links {
+    display: inline-block;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+#social {
+    text-align: center;
+}
