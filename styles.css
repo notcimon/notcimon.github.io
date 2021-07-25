@@ -40,3 +40,23 @@ nav ul{
     display: flex;
 }
 
+
+.profile_bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.social_links {
+    display: inline-block;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+#social {
+    text-align: center;
+}
