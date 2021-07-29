@@ -52,11 +52,14 @@ nav ul{
 }
 
 .social_links {
-    display: inline-block;
+    margin: 5px;
     max-width: 20px;
     max-height: 20px;
 }
 
-#social {
-    text-align: center;
+.social-flex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
