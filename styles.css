@@ -63,3 +63,7 @@ nav ul{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.project-listed {
+    list-style-type: square;
+}
